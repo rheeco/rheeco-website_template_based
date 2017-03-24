@@ -5,9 +5,14 @@ html {
 
 body {
   min-width: 768 px;
+  padding: 0;
+  margin: 0;
+  border: 0;
   }
 
 header {
+  background: black;
+  color: white;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -22,8 +27,14 @@ header a {
   white-space: nowrap;
   }
 
+a {
+  color: black;
+  }
+
 .columns {
   /* display: flex; */
+  padding: 5px;
+  margin: 2px;
   }
 
 .column {
